@@ -1,0 +1,12 @@
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: demo02
+  description: demo02
+  labels:
+    stage: qa
+    platform-engineer.cloud/creator: backstage-template
+spec:
+  team: sx-cnp-oss
