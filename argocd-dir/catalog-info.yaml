@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-claim
-  title: kubriX platform Showcase
+  title: kubriX platform Showcase claim
   description: |
     This is the kubriX paltform Showcase for UIBK/ZID
   links:
