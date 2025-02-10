@@ -17,7 +17,6 @@ metadata:
   annotations:
     github.com/project-slug: suxess-it/team-a-kcd-demo
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=kcd-demo-prod'
-    backstage.io/kubernetes-namespace: adn-team-a
     argocd/app-namespace: adn-team-a
     argocd/app-name: kcd-demo-prod
     backstage.io/techdocs-ref: dir:.
@@ -60,7 +59,6 @@ metadata:
     github.com/project-slug: suxess-it/team-a-kcd-demo
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=kcd-demo-qa'
     argocd/app-namespace: adn-team-a
-    backstage.io/kubernetes-namespace: adn-team-a
     argocd/app-name: kcd-demo-qa
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.lab.suxessit.k8s.cloud.uibk.ac.at/project/team-a-kcd-demo-kargo-project"
@@ -102,7 +100,6 @@ metadata:
     github.com/project-slug: suxess-it/team-a-kcd-demo
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=kcd-demo-test'
     argocd/app-namespace: adn-team-a
-    backstage.io/kubernetes-namespace: adn-team-a
     argocd/app-name: kcd-demo-test
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.lab.suxessit.k8s.cloud.uibk.ac.at/project/team-a-kcd-demo-kargo-project"
@@ -144,7 +141,6 @@ metadata:
     github.com/project-slug: suxess-it/team-a-kcd-demo
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=team-a-kcd-demo'
     argocd/app-namespace: adn-team-a
-    backstage.io/kubernetes-namespace: adn-team-a
     argocd/app-name: team-a-kcd-demo
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.lab.suxessit.k8s.cloud.uibk.ac.at/project/team-a-kcd-demo-kargo-project"
