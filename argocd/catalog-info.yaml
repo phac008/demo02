@@ -16,7 +16,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/team-1-podtato-head-option-5
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=podtato-head-option-5-prod'
-    argocd/app-namespace: adn-team-1
+    argocd/app-namespace: team-1-podtato-head-option-5-prod
     #argocd/app-name: podtato-head-option-5-prod
     argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-prod'
     argocd/project-name: team-1-project
@@ -58,7 +58,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/team-1-podtato-head-option-5
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=podtato-head-option-5-qa'
-    argocd/app-namespace: adn-team-1
+    argocd/app-namespace: team-1-podtato-head-option-5-qa
     #argocd/app-name: podtato-head-option-5-qa
     argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-qa'
     argocd/project-name: team-1-project
@@ -100,7 +100,7 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/team-1-podtato-head-option-5
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=podtato-head-option-5-test'
-    argocd/app-namespace: adn-team-1
+    argocd/app-namespace: team-1-podtato-head-option-5-test
     #argocd/app-name: podtato-head-option-5-test
     argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-test'
     argocd/project-name: team-1-project
