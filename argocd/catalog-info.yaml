@@ -16,9 +16,9 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/team-1-podtato-head-option-5
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=podtato-head-option-5-prod'
-    argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-prod'
+    #argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-prod'
     argocd/app-namespace: team-1-podtato-head-option-5-prod
-    #argocd/app-name: podtato-head-option-5-prod
+    argocd/app-name: podtato-head-option-5-prod
     argocd/project-name: team-1-project
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo.kubrix.cloud/project/team-1-podtato-head-option-5-kargo-project"
@@ -58,9 +58,9 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/team-1-podtato-head-option-5
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=podtato-head-option-5-qa'
-    argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-qa'
+    #argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-qa'
     argocd/app-namespace: team-1-podtato-head-option-5-qa
-    #argocd/app-name: podtato-head-option-5-qa
+    argocd/app-name: podtato-head-option-5-qa
     argocd/project-name: team-1-project
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo.kubrix.cloud/project/team-1-podtato-head-option-5-kargo-project"
@@ -100,9 +100,9 @@ metadata:
   annotations:
     github.com/project-slug: kubriX-demo/team-1-podtato-head-option-5
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=podtato-head-option-5-test'
-    argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-test'
+    #argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-test'
     argocd/app-namespace: team-1-podtato-head-option-5-test
-    #argocd/app-name: podtato-head-option-5-test
+    argocd/app-name: podtato-head-option-5-test
     argocd/project-name: team-1-project
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo.kubrix.cloud/project/team-1-podtato-head-option-5-kargo-project"
@@ -143,8 +143,8 @@ metadata:
     github.com/project-slug: kubriX-demo/team-1-podtato-head-option-5
     backstage.io/kubernetes-label-selector:  'app.kubernetes.io/instance=podtato-head-option-5'
     argocd/app-namespace: adn-team-1
-   # argocd/app-name: team-1-podtato-head-option-5
-    argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5'
+    argocd/app-name: team-1-podtato-head-option-5
+    #argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5'
     argocd/project-name: team-1-project
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo.kubrix.cloud/project/team-1-podtato-head-option-5-kargo-project"
