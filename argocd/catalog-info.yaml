@@ -103,7 +103,7 @@ metadata:
     argocd/app-selector: 'app.kubernetes.io/instance=podtato-head-option-5-test'
     argocd/app-namespace: adn-team-1
     #argocd/app-name: podtato-head-option-5-test
-    argocd/project-name: team-1-project
+    #argocd/project-name: team-1-project
     backstage.io/techdocs-ref: dir:.
     kargo-project: "https://kargo.demo.kubrix.cloud/project/team-1-podtato-head-option-5-kargo-project"
     grafana/dashboard-selector: "(tags @> 'suXess')"
